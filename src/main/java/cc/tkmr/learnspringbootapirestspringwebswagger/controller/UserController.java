@@ -31,4 +31,8 @@ public class UserController {
     public void postUser(@RequestBody User user){ // RequestBody annotation is used to map the HTTP request body to the User object
         userRepository.save(user);
     }
+    @PutMapping
+    public void putUser(@RequestBody User user){ // RequestBody annotation is used to map the HTTP request body to the User object
+        userRepository.save(user);
+    }
 }

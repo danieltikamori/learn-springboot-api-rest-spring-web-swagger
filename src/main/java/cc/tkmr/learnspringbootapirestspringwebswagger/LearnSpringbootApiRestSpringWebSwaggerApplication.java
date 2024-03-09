@@ -49,3 +49,28 @@ public class LearnSpringbootApiRestSpringWebSwaggerApplication {
 // Create a new file in src/main/java/cc/tkmr/learnspringbootapirestspringwebswagger/repository/UserRepository.java
 
 
+// What is Swagger?
+// Swagger is a RESTful API documentation tool for developers.
+
+//See: https://springdoc.org/#getting-started
+// Using Swagger 3 UI
+// At pom.xml, add the following dependency (Spring boot 3):
+//		<dependency>
+//			<groupId>org.springdoc</groupId>
+//			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+//			<version>2.3.0</version>
+//		</dependency>
+
+// IMPORTANT: Update the repository:
+// Using Intellij IDEA: At pom.xml, at top right corner, click the button with Maven icon to update the repository and clear errors.
+
+//For custom path Swagger UI:
+// At src/main/resources/application.properties, add the following property:
+// springdoc.swagger-ui.path=/swagger-ui
+
+// Access through:
+// http://localhost:8080/swagger-ui.html
+// You can test your application with Swagger UI. No need to use external clients.
+
+// OpenAPI description will be available at the following url for json format:
+// http://server:port/context-path/v3/api-docs

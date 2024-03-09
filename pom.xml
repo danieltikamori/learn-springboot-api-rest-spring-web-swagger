@@ -31,6 +31,29 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+
+<!--		For the integration between spring-boot and swagger-ui-->
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+			<version>2.3.0</version>
+		</dependency>
+
+<!--		Spring WebMvc support - Documentation will be available at the following url for json format: http://server:port/context-path/v3/api-docs-->
+<!--		<dependency>-->
+<!--			<groupId>org.springdoc</groupId>-->
+<!--			<artifactId>springdoc-openapi-starter-webmvc-api</artifactId>-->
+<!--			<version>2.3.0</version>-->
+<!--		</dependency>-->
+
+<!--		Spring WebFlux support - Documentation can be available in yaml format as well, on the following path : /v3/api-docs.yaml-->
+<!--		<dependency>-->
+<!--			<groupId>org.springdoc</groupId>-->
+<!--			<artifactId>springdoc-openapi-starter-webflux-ui</artifactId>-->
+<!--			<version>2.3.0</version>-->
+<!--		</dependency>-->
+
+
 	</dependencies>
 
 	<build>
