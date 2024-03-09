@@ -74,3 +74,13 @@ public class LearnSpringbootApiRestSpringWebSwaggerApplication {
 
 // OpenAPI description will be available at the following url for json format:
 // http://server:port/context-path/v3/api-docs
+
+// OpenAPI description will be available at the following url for yaml format:
+// http://server:port/context-path/v3/api-docs.yaml
+
+// Error Handling
+// Create handler package cc.tkmr.learnspringbootapirestspringwebswagger.handler
+// Create a new file in src/main/java/cc/tkmr/learnspringbootapirestspringwebswagger/handler/GlobalExceptionHandler.java
+// Create BusinessException class to handle the exception when a business error occurs
+// Create ResponseError class to customize the response error message
+// Create RequiredFieldException class to handle the exception when a required field is missing
